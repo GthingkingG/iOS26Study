@@ -18,7 +18,6 @@ struct ImageChip: View {
             .background(content: {
                 RoundedRectangle(cornerRadius: 20)
                     .fill(color)
-                    .frame(width: 24, height: 24)
                     .glassEffect(.clear, in: .rect(corners: .concentric(), isUniform: false))
                 
             })
