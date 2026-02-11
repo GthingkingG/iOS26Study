@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SettingsView: View {
+    private var settingsViewModel = SettingsViewModel()
+    
     var body: some View {
         NavigationStack {
             Form {
@@ -45,7 +47,13 @@ fileprivate struct FirstView: View {
     var body: some View {
         Section {
             ForEach(SettingsSectionType.first.content, id: \.self) { item in
-                Text(item.title)
+                if item.viewType == .normal {
+                    SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
+                } else if item.viewType == .decsription {
+                    SettingsSectionView(icon: item.icon, title: item.title, description: "설정 중", font: item.font, textColor: item.titleColor)
+                } else {
+                    EmptyView()
+                }
             }
         }
     }
@@ -55,7 +63,7 @@ fileprivate struct ReferenceView: View {
     var body: some View {
         Section("참조", content: {
             ForEach(SettingsSectionType.reference.content, id: \.self) { item in
-                Text(item.title)
+                SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
             }
         })
     }
@@ -65,7 +73,7 @@ fileprivate struct InterfaceView: View {
     var body: some View {
         Section("인터페이스", content: {
             ForEach(SettingsSectionType.interface.content, id: \.self) { item in
-                Text(item.title)
+                SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
             }
         })
     }
@@ -75,9 +83,10 @@ fileprivate struct ProView: View {
     var body: some View {
         Section(content: {
             ForEach(SettingsSectionType.pro.content, id: \.self) { item in
-                Text(item.title)
+                SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
+                    .foregroundStyle(Color.gray)
             }
-            .foregroundStyle(Color.gray)
+            
         }, header: {
             Text("PRO")
                 .font(.subheadline)
@@ -98,7 +107,7 @@ fileprivate struct DonationView: View {
     var body: some View {
         Section {
             ForEach(SettingsSectionType.donation.content, id: \.self) { item in
-                Text(item.title)
+                SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
             }
         }
     }
@@ -108,7 +117,7 @@ fileprivate struct ETCView: View {
     var body: some View {
         Section {
             ForEach(SettingsSectionType.etc.content, id: \.self) { item in
-                Text(item.title)
+                SettingsSectionView(icon: item.icon, title: item.title, font: item.font, textColor: item.titleColor)
             }
         }
     }
