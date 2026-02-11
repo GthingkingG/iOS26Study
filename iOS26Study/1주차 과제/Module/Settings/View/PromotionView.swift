@@ -33,7 +33,7 @@ struct PromotionView: View {
                     .foregroundStyle(Color(.gray))
             }
         }
-        .listRowBackground(Color.blue.opacity(0.3))
+        .listRowBackground(Color.cyan.opacity(0.3))
     }
     
     
