@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iOS26Study
+//  Week1_concepts
 //
 //  Created by One on 2/6/26.
 //
