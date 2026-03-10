@@ -6,15 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFCFDDE52F59B88500DCCE86 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF15944B2F5C65730051713E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4DEF4E2F35B3E9001367B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF4DEF552F35B3E9001367B7;
+			remoteInfo = iOS26Study;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		BF1594472F5C65730051713E /* iOS26StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS26StudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4DEF562F35B3E9001367B7 /* iOS26Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS26Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923642F5835090012797C /* Week1_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923732F5835430012797C /* Week2_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923822F5835530012797C /* Week3_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923912F5837050012797C /* Week1_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC924112F583C040012797C /* Week3_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF1594482F5C65730051713E /* iOS26StudyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOS26StudyTests;
+			sourceTree = "<group>";
+		};
 		BF4DEF582F35B3E9001367B7 /* iOS26Study */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = iOS26Study;
@@ -40,9 +61,21 @@
 			path = Week1_practice;
 			sourceTree = "<group>";
 		};
+		BFC924122F583C040012797C /* Week3_practice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Week3_practice;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BF1594442F5C65730051713E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF4DEF532F35B3E9001367B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +111,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFC9240E2F583C040012797C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCFDDE52F59B88500DCCE86 /* AsyncAlgorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +130,8 @@
 				BFC923742F5835430012797C /* Week2_concepts */,
 				BFC923832F5835530012797C /* Week3_concepts */,
 				BFC923922F5837050012797C /* Week1_practice */,
+				BFC924122F583C040012797C /* Week3_practice */,
+				BF1594482F5C65730051713E /* iOS26StudyTests */,
 				BF4DEF572F35B3E9001367B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +144,8 @@
 				BFC923732F5835430012797C /* Week2_concepts.app */,
 				BFC923822F5835530012797C /* Week3_concepts.app */,
 				BFC923912F5837050012797C /* Week1_practice.app */,
+				BFC924112F583C040012797C /* Week3_practice.app */,
+				BF1594472F5C65730051713E /* iOS26StudyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +153,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BF1594462F5C65730051713E /* iOS26StudyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF15944F2F5C65730051713E /* Build configuration list for PBXNativeTarget "iOS26StudyTests" */;
+			buildPhases = (
+				BF1594432F5C65730051713E /* Sources */,
+				BF1594442F5C65730051713E /* Frameworks */,
+				BF1594452F5C65730051713E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF15944C2F5C65730051713E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF1594482F5C65730051713E /* iOS26StudyTests */,
+			);
+			name = iOS26StudyTests;
+			packageProductDependencies = (
+			);
+			productName = iOS26StudyTests;
+			productReference = BF1594472F5C65730051713E /* iOS26StudyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BF4DEF552F35B3E9001367B7 /* iOS26Study */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4DEF612F35B3EB001367B7 /* Build configuration list for PBXNativeTarget "iOS26Study" */;
@@ -218,6 +286,29 @@
 			productReference = BFC923912F5837050012797C /* Week1_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BFC924102F583C040012797C /* Week3_practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC924192F583C050012797C /* Build configuration list for PBXNativeTarget "Week3_practice" */;
+			buildPhases = (
+				BFC9240D2F583C040012797C /* Sources */,
+				BFC9240E2F583C040012797C /* Frameworks */,
+				BFC9240F2F583C040012797C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BFC924122F583C040012797C /* Week3_practice */,
+			);
+			name = Week3_practice;
+			packageProductDependencies = (
+				BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */,
+			);
+			productName = Week3_practice;
+			productReference = BFC924112F583C040012797C /* Week3_practice.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -228,6 +319,10 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					BF1594462F5C65730051713E = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = BF4DEF552F35B3E9001367B7;
+					};
 					BF4DEF552F35B3E9001367B7 = {
 						CreatedOnToolsVersion = 26.2;
 					};
@@ -243,6 +338,9 @@
 					BFC923902F5837050012797C = {
 						CreatedOnToolsVersion = 26.3;
 					};
+					BFC924102F583C040012797C = {
+						CreatedOnToolsVersion = 26.3;
+					};
 				};
 			};
 			buildConfigurationList = BF4DEF512F35B3E9001367B7 /* Build configuration list for PBXProject "iOS26Study" */;
@@ -254,6 +352,9 @@
 			);
 			mainGroup = BF4DEF4D2F35B3E9001367B7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BF4DEF572F35B3E9001367B7 /* Products */;
 			projectDirPath = "";
@@ -264,11 +365,20 @@
 				BFC923722F5835430012797C /* Week2_concepts */,
 				BFC923812F5835530012797C /* Week3_concepts */,
 				BFC923902F5837050012797C /* Week1_practice */,
+				BFC924102F583C040012797C /* Week3_practice */,
+				BF1594462F5C65730051713E /* iOS26StudyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BF1594452F5C65730051713E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF4DEF542F35B3E9001367B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,9 +414,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFC9240F2F583C040012797C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BF1594432F5C65730051713E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF4DEF522F35B3E9001367B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,9 +466,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFC9240D2F583C040012797C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BF15944C2F5C65730051713E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF4DEF552F35B3E9001367B7 /* iOS26Study */;
+			targetProxy = BF15944B2F5C65730051713E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		BF15944D2F5C65730051713E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = one.iOS26StudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS26Study.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS26Study";
+			};
+			name = Debug;
+		};
+		BF15944E2F5C65730051713E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = one.iOS26StudyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS26Study.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS26Study";
+			};
+			name = Release;
+		};
 		BF4DEF5F2F35B3EB001367B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -786,9 +967,82 @@
 			};
 			name = Release;
 		};
+		BFC9241A2F583C050012797C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.iOS26Study.Week3-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC9241B2F583C050012797C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.iOS26Study.Week3-practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BF15944F2F5C65730051713E /* Build configuration list for PBXNativeTarget "iOS26StudyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF15944D2F5C65730051713E /* Debug */,
+				BF15944E2F5C65730051713E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BF4DEF512F35B3E9001367B7 /* Build configuration list for PBXProject "iOS26Study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -843,7 +1097,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BFC924192F583C050012797C /* Build configuration list for PBXNativeTarget "Week3_practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC9241A2F583C050012797C /* Debug */,
+				BFC9241B2F583C050012797C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
+			productName = AsyncAlgorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF4DEF4E2F35B3E9001367B7 /* Project object */;
 }
