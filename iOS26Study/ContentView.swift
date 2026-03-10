@@ -6,15 +6,23 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContentView: View {
     @State private var latitude: String = ""
     @State private var longitude: String = ""
     @State private var sheetStatus: Bool = false
     
+    @State var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.5665, longitude: 126.9780), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+    
+    var marker: Marker = .init(title: "임시", coordinate: .init(latitude: 37.5665, longitude: 126.9780))
+    
     var body: some View {
         VStack {
+            Map(initialPosition: .region(region))
+            
             VStack(alignment: .center) {
+                
                 TextField("위도", text: $latitude)
                 
                 Divider()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF73412E2F5FE66500E32109 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BF73412D2F5FE66500E32109 /* Moya */; };
 		BFCFDDE52F59B88500DCCE86 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF73412E2F5FE66500E32109 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +195,7 @@
 			);
 			name = iOS26Study;
 			packageProductDependencies = (
+				BF73412D2F5FE66500E32109 /* Moya */,
 			);
 			productName = iOS26Study;
 			productReference = BF4DEF562F35B3E9001367B7 /* iOS26Study.app */;
@@ -317,7 +320,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					BF1594462F5C65730051713E = {
 						CreatedOnToolsVersion = 26.3;
@@ -354,6 +357,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+				BF73412C2F5FE66500E32109 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BF4DEF572F35B3E9001367B7 /* Products */;
@@ -585,6 +589,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -642,6 +647,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1109,6 +1115,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF73412C2F5FE66500E32109 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
 		BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
@@ -1120,6 +1134,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF73412D2F5FE66500E32109 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF73412C2F5FE66500E32109 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
 		BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
