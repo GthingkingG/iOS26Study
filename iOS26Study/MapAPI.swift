@@ -27,8 +27,8 @@ extension MapAPI: APITargetType {
     
     var task: Task {
         switch self {
-        case .gerAddress(let lan, let lon):
-            return .requestParameters(parameters: ["lan": lan, "lon": lon], encoding: URLEncoding.queryString)
+        case .gerAddress(let lat, let lon):
+            return .requestParameters(parameters: ["version": "1", "lat": lat, "lon": lon, "addressType": "A10"], encoding: URLEncoding.queryString)
         }
     }
 }

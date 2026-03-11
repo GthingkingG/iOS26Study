@@ -8,7 +8,16 @@
 import Foundation
 
 struct MapData: Codable {
-    let address: String
+    let fullAddress: String
     let lat: String
     let lon: String
 }
+
+struct MapDataDTO: Codable {
+    let addressInfo: AddressInfo
+    
+    struct AddressInfo: Codable {
+        let fullAddress: String
+    }
+}
+
