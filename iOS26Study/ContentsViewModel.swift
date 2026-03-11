@@ -18,12 +18,12 @@ class ContentsViewModel {
         self.provider = MoyaProvider<MapAPI>(plugins: [logger])
     }
     
-    func getAddress(lat: String, lon: String) {
+    func getMapData(lat: String, lon: String) {
         provider.request(.gerAddress(lat: lat, lon: lon), completion: { [weak self] result in
             switch result {
             case .success(let response):
                 do {
-                    let decodedData = try JSONDecoder().decode(mapData.self, from: response.data)
+                    let decodedData = try JSONDecoder().decode(MapData.self, from: response.data)
                     self?.mapData = decodedData
                 } catch {
                     print("맵 데이터 디코더 오류", error)
