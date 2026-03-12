@@ -5,7 +5,7 @@
 //  Created by One on 3/10/26.
 //
 
-import Foundation
+import SwiftUI
 import Moya
 import MapKit
 
@@ -17,6 +17,8 @@ class ContentsViewModel {
     
     var mapDataDTO: MapDataDTO?
     let provider: MoyaProvider<MapAPI>
+    
+    var cameraPosition: MapCameraPosition = .userLocation(fallback: .automatic)
     
     var marker: [Marker] = []
     
