@@ -31,6 +31,17 @@
 		BFC924112F583C040012797C /* Week3_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF4DFD332F66A0DA0004F521 /* Exceptions for "iOS26Study" folder in "Week1_concepts" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/DataSource/MapDataRemoteDataSource.swift,
+				Data/Repository/MapDataRepositoryImpl.swift,
+			);
+			target = BFC923632F5835090012797C /* Week1_concepts */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BF1594482F5C65730051713E /* iOS26StudyTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -39,6 +50,9 @@
 		};
 		BF4DEF582F35B3E9001367B7 /* iOS26Study */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF4DFD332F66A0DA0004F521 /* Exceptions for "iOS26Study" folder in "Week1_concepts" target */,
+			);
 			path = iOS26Study;
 			sourceTree = "<group>";
 		};
