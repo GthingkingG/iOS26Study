@@ -10,7 +10,7 @@ import MapKit
 
 struct ContentView: View {
     @Bindable private var locationManager = LocationManager.shared
-    @Bindable var contentViewModel: ContentsViewModel = .init()
+    @Bindable var contentViewModel: ContentsViewModel
     
     
     var body: some View {
@@ -41,18 +41,18 @@ struct ContentView: View {
             .border(.green)
             
             Button(action: {
-                contentViewModel.sheetStatus.toggle()
-                //MapKit에 어노테이션 추가
-                contentViewModel.getMapData()
-                print(contentViewModel.latitude)
-                print(contentViewModel.longitude)
+                Task {
+                    contentViewModel.sheetStatus.toggle()
+                    //MapKit에 어노테이션 추가
+                    await contentViewModel.loadMapData(lat: contentViewModel.latitude, lon: contentViewModel.longitude)
+                }
             }, label: {
                 Text("주소 보기")
                     .font(.headline)
             })
         }
         .sheet(isPresented: $contentViewModel.sheetStatus, content: {
-            Text(contentViewModel.mapDataDTO?.addressInfo.fullAddress ?? "결과없음")
+            Text(contentViewModel.currentMapData?.fullAddress ?? "결과없음")
                 .padding()
                 .border(.green)
             HStack {
@@ -75,8 +75,4 @@ struct ContentView: View {
             }
         })
     }
-}
-
-#Preview {
-    ContentView()
 }

@@ -13,11 +13,4 @@ struct MapData: Codable {
     let lon: String
 }
 
-struct MapDataDTO: Codable {
-    let addressInfo: AddressInfo
-    
-    struct AddressInfo: Codable {
-        let fullAddress: String
-    }
-}
 
