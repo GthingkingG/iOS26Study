@@ -12,13 +12,13 @@ protocol APITargetType: TargetType {}
 
 extension APITargetType {
     var baseURL: URL {
-        return URL(string: "https://apis.openapi.sk.com")!
+        return URL(string: "\(Config.baseURL)")!
     }
     
     var headers: [String : String]? {
         switch task {
         case .requestJSONEncodable, .requestParameters:
-            return ["Content-Type": "application/json", "appKey": "xvK2M8SAI213dug0xPYa090IlfirjxXW6rir6oU5"]
+            return ["Content-Type": "application/json", "appKey": "\(Config.appKey)"]
         case .uploadMultipart:
             return ["Content-Type": "multipart/form-data"]
         default:
