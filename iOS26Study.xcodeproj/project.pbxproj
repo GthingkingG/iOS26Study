@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6BDBB92F7CE40900212FD6 /* testVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BDBB82F7CE40900212FD6 /* testVie.swift */; };
+		BF6BDBBA2F7CE40900212FD6 /* testVie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BDBB82F7CE40900212FD6 /* testVie.swift */; };
 		BF73412E2F5FE66500E32109 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BF73412D2F5FE66500E32109 /* Moya */; };
 		BFCFDDE52F59B88500DCCE86 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = BFCFDDE42F59B88500DCCE86 /* AsyncAlgorithms */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,7 @@
 /* Begin PBXFileReference section */
 		BF1594472F5C65730051713E /* iOS26StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS26StudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4DEF562F35B3E9001367B7 /* iOS26Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS26Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6BDBB82F7CE40900212FD6 /* testVie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVie.swift; sourceTree = "<group>"; };
 		BFB7A4962F691812002346E9 /* Week5_Concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week5_Concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923642F5835090012797C /* Week1_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923732F5835430012797C /* Week2_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +156,7 @@
 		BF4DEF4D2F35B3E9001367B7 = {
 			isa = PBXGroup;
 			children = (
+				BF6BDBB82F7CE40900212FD6 /* testVie.swift */,
 				BF4DEF582F35B3E9001367B7 /* iOS26Study */,
 				BFC923652F5835090012797C /* Week1_concepts */,
 				BFC923742F5835430012797C /* Week2_concepts */,
@@ -500,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6BDBBA2F7CE40900212FD6 /* testVie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6BDBB92F7CE40900212FD6 /* testVie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
