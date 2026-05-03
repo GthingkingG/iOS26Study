@@ -28,15 +28,38 @@ import Foundation
 //    var lon: CGFloat
 //}
 
-struct MapDataDTO: Codable {
+struct MapDataRequestDTO: Codable {
+    var lat: String
+    var lon: String
+}
+
+struct MapDataResponseDTO: Codable {
     
     /* 서버 */
     let addressInfo: AddressInfo
+    
+    struct AddressInfo: Codable {
+        let fullAddress: String
+        let addressType: String
+        let city_do: String
+        let gu_gun: String
+        let eup_myun: String
+        let adminDong: String
+        let adminDongCode: String
+        let legalDong: String
+        let legalDongCode: String
+        let ri: String
+        let bunji: String
+        let roadName: String
+        let buildingIndex: String
+        let buildingName: String
+        let mappingDistance: String
+        let roadCode: String
+    }
 }
 
-extension MapDataDTO {
-    func toDomain() -> MapData {
-        MapData(fullAddress: addressInfo.fullAddress, lat: lat, lon: lon)
-        
+extension MapDataResponseDTO {
+    func toDomain() -> String {
+        return addressInfo.fullAddress
     }
 }

@@ -16,6 +16,6 @@ final class MapDataRepositoryImpl: MapDataRepository {
     
     func getMap(lat: String, lon: String) async throws -> MapData {
         let dto = try await remote.getMapData(lat: lat, lon: lon)
-        return dto.toDomain()
+        return MapData(fullAddress: dto.toDomain(), lat: lat, lon: lon)
     }
 }
