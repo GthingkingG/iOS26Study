@@ -1,0 +1,3 @@
+[submodule "Week6_practice/MyApp"]
+	path = Week6_practice/MyApp
+	url = https://github.com/GthingkingG/MyApp.git
