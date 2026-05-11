@@ -32,7 +32,7 @@ extension DIContainer {
 }
 
 @main
-struct Week3_practiceApp: App {
+public struct Week3_practiceApp: App {
     private let container = DIContainer.makeAppContainer()
     
     var body: some Scene {
