@@ -9,7 +9,7 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
-    @State var filter: FilterType = .all
+    @State var filter: MenuButton = .all
     
     var body: some View {
         NavigationStack {
@@ -26,7 +26,7 @@ struct ContentView: View {
                             ForEach(MenuType.allCases) { menu in
                                 Menu {
                                     Picker("역필터", selection: $filter) {
-                                        ForEach(FilterType.allCases) { type in
+                                        ForEach(MenuButton.allCases) { type in
                                             Label(type.typeString, systemImage: type.typeImage)
                                                 .tag(type)
                                         }
@@ -75,10 +75,12 @@ struct ContentView: View {
         }
     }
     
-    enum FilterType: String, CaseIterable, Identifiable {
+    enum MenuButton: String, CaseIterable, Identifiable {
         case all
         case my
         case cur
+        case standard
+        case star
         
         var id: String { rawValue }
         
@@ -90,6 +92,10 @@ struct ContentView: View {
                 return "내 관측소"
             case .cur:
                 return "현재 관측소만"
+            case .standard:
+                return "표준"
+            case .star:
+                return "위성"
             }
         }
         
@@ -101,6 +107,10 @@ struct ContentView: View {
                 return "star.circle"
             case .cur:
                 return "location.fill"
+            case .standard:
+                return "map"
+            case .star:
+                return "mountain.2.fill"
             }
         }
     }
