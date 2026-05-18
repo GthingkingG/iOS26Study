@@ -11,56 +11,31 @@ import MapKit
 struct ContentView: View {
     @State var filter: FilterType = .all
     @State var map: MapType = .satellite
+    @Environment(\.tabViewBottomAccessoryPlacement) private var placement
     
     
     var body: some View {
-        NavigationStack {
-            Map()
-                .toolbar {
-                    ToolbarItem(placement: .principal) {
-                        Text("관측소 지도")
-                            .font(.headline)
-                            .foregroundStyle(.white)
-                    }
-                    
-                    ToolbarItem(placement: .topBarTrailing) {
-                        Menu {
-                            Menu {
-                                Picker(MenuType.filter.menuString, selection: $filter) {
-                                    ForEach(FilterType.allCases) { type in
-                                        Label(type.typeString, systemImage: type.typeImage)
-                                            .tag(type)
-                                    }
-                                }
-                            } label: {
-                                HStack(spacing: 4) {
-                                    Image(systemName: MenuType.filter.menuImage)
-                                    Text(MenuType.filter.menuString)
-                                    Image(systemName: "chevron.down")
-                                }
-                            }
-                            
-                            Menu {
-                                Picker(MenuType.map.menuString, selection: $map) {
-                                    ForEach(MapType.allCases) { type in
-                                        Label(type.typeString, systemImage: type.typeImage)
-                                            .tag(type)
-                                    }
-                                }
-                            } label: {
-                                HStack(spacing: 4) {
-                                    Image(systemName: MenuType.map.menuImage)
-                                    Text(MenuType.map.menuString)
-                                    Image(systemName: "chevron.down")
-                                }
-                            }
-                        } label: {
-                            Image(systemName: "line.3.horizontal.decrease.circle")
-                                .foregroundStyle(.secondary)
-                                .glassEffect(.clear)
-                        }
-                    }
+        TabView {
+            Tab("Home", systemImage: "house") {
+                NavigationStack {
+                    MapView(filter: $filter, map: $map)
                 }
+                .navigationTitle("home")
+            }
+            
+        }
+        .tabViewBottomAccessory(isEnabled: true) {
+            Button(action: {
+                print("바텀 악세서리 버튼")
+            }, label: {
+                HStack {
+                    Text("경도: ")
+                    Text("위도: ")
+                    Spacer()
+                    Text("My")
+                }
+                .padding(.horizontal)
+            })
         }
     }
 }
