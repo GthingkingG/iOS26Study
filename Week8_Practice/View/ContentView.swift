@@ -12,6 +12,8 @@ struct ContentView: View {
     @State var filter: FilterType = .all
     @State var map: MapType = .satellite
     @Environment(\.tabViewBottomAccessoryPlacement) private var placement
+    @Bindable var locationManager = LocationManager.shared
+    @State var isToggle: Bool = false
     
     
     var body: some View {
@@ -24,18 +26,21 @@ struct ContentView: View {
             }
             
         }
-        .tabViewBottomAccessory(isEnabled: true) {
-            Button(action: {
-                print("바텀 악세서리 버튼")
-            }, label: {
-                HStack {
-                    Text("경도: ")
-                    Text("위도: ")
-                    Spacer()
-                    Text("My")
+        .tabBarMinimizeBehavior(.automatic)
+        .tabViewBottomAccessory {
+            HStack {
+                if isToggle {
+                    Text("경도: \(locationManager.currentLocation?.coordinate.longitude ?? 0)")
+                    Text("위도: \(locationManager.currentLocation?.coordinate.latitude ?? 0)")
                 }
-                .padding(.horizontal)
-            })
+                Button(action: {
+                    isToggle.toggle()
+                }, label: {
+                    Text("My")
+                })
+            }
+            .padding(.horizontal)
+            
         }
     }
 }

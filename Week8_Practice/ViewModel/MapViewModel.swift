@@ -26,6 +26,6 @@ final class MapViewModel {
     
     func updateFromLocation(_ location: CLLocation?) {
         guard let coordinate = location?.coordinate else { return }
-        
+        updateCamera(to: coordinate)
     }
 }
