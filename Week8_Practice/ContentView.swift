@@ -10,6 +10,8 @@ import MapKit
 
 struct ContentView: View {
     @State var filter: FilterType = .all
+    @State var map: MapType = .satellite
+    
     
     var body: some View {
         NavigationStack {
@@ -23,20 +25,33 @@ struct ContentView: View {
                     
                     ToolbarItem(placement: .topBarTrailing) {
                         Menu {
-                            ForEach(MenuType.allCases) { menu in
-                                Menu {
-                                    Picker("역필터", selection: $filter) {
-                                        ForEach(FilterType.allCases) { type in
-                                            Label(type.typeString, systemImage: type.typeImage)
-                                                .tag(type)
-                                        }
+                            Menu {
+                                Picker(MenuType.filter.menuString, selection: $filter) {
+                                    ForEach(FilterType.allCases) { type in
+                                        Label(type.typeString, systemImage: type.typeImage)
+                                            .tag(type)
                                     }
-                                } label: {
-                                    HStack(spacing: 4) {
-                                        Image(systemName: menu.menuImage)
-                                        Text(menu.menuString)
-                                        Image(systemName: "chevron.down")
+                                }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Image(systemName: MenuType.filter.menuImage)
+                                    Text(MenuType.filter.menuString)
+                                    Image(systemName: "chevron.down")
+                                }
+                            }
+                            
+                            Menu {
+                                Picker(MenuType.map.menuString, selection: $map) {
+                                    ForEach(MapType.allCases) { type in
+                                        Label(type.typeString, systemImage: type.typeImage)
+                                            .tag(type)
                                     }
+                                }
+                            } label: {
+                                HStack(spacing: 4) {
+                                    Image(systemName: MenuType.map.menuImage)
+                                    Text(MenuType.map.menuString)
+                                    Image(systemName: "chevron.down")
                                 }
                             }
                         } label: {
@@ -101,6 +116,31 @@ struct ContentView: View {
                 return "star.circle"
             case .cur:
                 return "location.fill"
+            }
+        }
+    }
+    
+    enum MapType: String, CaseIterable, Identifiable {
+        case standard
+        case satellite
+        
+        var id: String { rawValue }
+        
+        var typeString: String {
+            switch self {
+            case .standard:
+                return "표준"
+            case .satellite:
+                return "위성"
+            }
+        }
+        
+        var typeImage: String {
+            switch self {
+            case .standard:
+                return "map"
+            case .satellite:
+                return "mountain.2.fill"
             }
         }
     }

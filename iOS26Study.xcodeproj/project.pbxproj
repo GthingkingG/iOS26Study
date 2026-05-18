@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -111,82 +111,60 @@
 /* Begin PBXFrameworksBuildPhase section */
 		BF1594442F5C65730051713E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C28902FACBE7600BCB678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C289C2FACBE7700BCB678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C28A62FACBE7700BCB678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF4DEF532F35B3E9001367B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				BF73412E2F5FE66500E32109 /* Moya in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFB7A4932F691812002346E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923612F5835090012797C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923702F5835430012797C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9237F2F5835530012797C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9238E2F5837050012797C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9240E2F583C040012797C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				BFCFDDE52F59B88500DCCE86 /* AsyncAlgorithms in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -242,8 +220,6 @@
 				BF15944C2F5C65730051713E /* PBXTargetDependency */,
 			);
 			name = iOS26StudyTests;
-			packageProductDependencies = (
-			);
 			productName = iOS26StudyTests;
 			productReference = BF1594472F5C65730051713E /* iOS26StudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -258,14 +234,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BF1C28942FACBE7600BCB678 /* Week8_Practice */,
 			);
 			name = Week8_Practice;
-			packageProductDependencies = (
-			);
 			productName = Week8_Practice;
 			productReference = BF1C28932FACBE7600BCB678 /* Week8_Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -284,8 +256,6 @@
 				BF1C28A12FACBE7700BCB678 /* PBXTargetDependency */,
 			);
 			name = Week8_PracticeTests;
-			packageProductDependencies = (
-			);
 			productName = Week8_PracticeTests;
 			productReference = BF1C289F2FACBE7700BCB678 /* Week8_PracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -304,8 +274,6 @@
 				BF1C28AB2FACBE7700BCB678 /* PBXTargetDependency */,
 			);
 			name = Week8_PracticeUITests;
-			packageProductDependencies = (
-			);
 			productName = Week8_PracticeUITests;
 			productReference = BF1C28A92FACBE7700BCB678 /* Week8_PracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -319,8 +287,6 @@
 				BF4DEF542F35B3E9001367B7 /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
 				BF4DEF582F35B3E9001367B7 /* iOS26Study */,
@@ -343,14 +309,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BFB7A4972F691812002346E9 /* Week5_Concepts */,
 			);
 			name = Week5_Concepts;
-			packageProductDependencies = (
-			);
 			productName = Week5_Concepts;
 			productReference = BFB7A4962F691812002346E9 /* Week5_Concepts.app */;
 			productType = "com.apple.product-type.application";
@@ -365,14 +327,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BFC923652F5835090012797C /* Week1_concepts */,
 			);
 			name = Week1_concepts;
-			packageProductDependencies = (
-			);
 			productName = Week1_concepts;
 			productReference = BFC923642F5835090012797C /* Week1_concepts.app */;
 			productType = "com.apple.product-type.application";
@@ -387,14 +345,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BFC923742F5835430012797C /* Week2_concepts */,
 			);
 			name = Week2_concepts;
-			packageProductDependencies = (
-			);
 			productName = Week2_concepts;
 			productReference = BFC923732F5835430012797C /* Week2_concepts.app */;
 			productType = "com.apple.product-type.application";
@@ -409,14 +363,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BFC923832F5835530012797C /* Week3_concepts */,
 			);
 			name = Week3_concepts;
-			packageProductDependencies = (
-			);
 			productName = Week3_concepts;
 			productReference = BFC923822F5835530012797C /* Week3_concepts.app */;
 			productType = "com.apple.product-type.application";
@@ -431,14 +381,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				BFC923922F5837050012797C /* Week1_practice */,
 			);
 			name = Week1_practice;
-			packageProductDependencies = (
-			);
 			productName = Week1_practice;
 			productReference = BFC923912F5837050012797C /* Week1_practice.app */;
 			productType = "com.apple.product-type.application";
@@ -452,8 +398,6 @@
 				BFC9240F2F583C040012797C /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
 				BFC924122F583C040012797C /* Week3_practice */,
@@ -527,7 +471,7 @@
 				BFCFDDE32F59B88500DCCE86 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
 				BF73412C2F5FE66500E32109 /* XCRemoteSwiftPackageReference "Moya" */,
 			);
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = BF4DEF572F35B3E9001367B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -550,162 +494,118 @@
 /* Begin PBXResourcesBuildPhase section */
 		BF1594452F5C65730051713E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C28912FACBE7600BCB678 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C289D2FACBE7700BCB678 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C28A72FACBE7700BCB678 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF4DEF542F35B3E9001367B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFB7A4942F691812002346E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923622F5835090012797C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923712F5835430012797C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923802F5835530012797C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9238F2F5837050012797C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9240F2F583C040012797C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF1594432F5C65730051713E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C288F2FACBE7600BCB678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C289B2FACBE7700BCB678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF1C28A52FACBE7700BCB678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BF4DEF522F35B3E9001367B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				BF6BDBBA2F7CE40900212FD6 /* ToolbarStyling.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFB7A4922F691812002346E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC923602F5835090012797C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				BF6BDBB92F7CE40900212FD6 /* ToolbarStyling.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9236F2F5835430012797C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9237E2F5835530012797C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9238D2F5837050012797C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BFC9240D2F583C040012797C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -728,7 +628,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		BF15944D2F5C65730051713E /* Debug */ = {
+		BF15944D2F5C65730051713E /* Debug configuration for PBXNativeTarget "iOS26StudyTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -749,7 +649,7 @@
 			};
 			name = Debug;
 		};
-		BF15944E2F5C65730051713E /* Release */ = {
+		BF15944E2F5C65730051713E /* Release configuration for PBXNativeTarget "iOS26StudyTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -770,7 +670,7 @@
 			};
 			name = Release;
 		};
-		BF1C28B22FACBE7700BCB678 /* Debug */ = {
+		BF1C28B22FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_Practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -803,7 +703,7 @@
 			};
 			name = Debug;
 		};
-		BF1C28B32FACBE7700BCB678 /* Release */ = {
+		BF1C28B32FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_Practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -836,7 +736,7 @@
 			};
 			name = Release;
 		};
-		BF1C28B52FACBE7700BCB678 /* Debug */ = {
+		BF1C28B52FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_PracticeTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -858,7 +758,7 @@
 			};
 			name = Debug;
 		};
-		BF1C28B62FACBE7700BCB678 /* Release */ = {
+		BF1C28B62FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_PracticeTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -880,7 +780,7 @@
 			};
 			name = Release;
 		};
-		BF1C28B82FACBE7700BCB678 /* Debug */ = {
+		BF1C28B82FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_PracticeUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -901,7 +801,7 @@
 			};
 			name = Debug;
 		};
-		BF1C28B92FACBE7700BCB678 /* Release */ = {
+		BF1C28B92FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_PracticeUITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -922,7 +822,7 @@
 			};
 			name = Release;
 		};
-		BF4DEF5F2F35B3EB001367B7 /* Debug */ = {
+		BF4DEF5F2F35B3EB001367B7 /* Debug configuration for PBXProject "iOS26Study" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -987,7 +887,7 @@
 			};
 			name = Debug;
 		};
-		BF4DEF602F35B3EB001367B7 /* Release */ = {
+		BF4DEF602F35B3EB001367B7 /* Release configuration for PBXProject "iOS26Study" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1045,7 +945,7 @@
 			};
 			name = Release;
 		};
-		BF4DEF622F35B3EB001367B7 /* Debug */ = {
+		BF4DEF622F35B3EB001367B7 /* Debug configuration for PBXNativeTarget "iOS26Study" */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReferenceAnchor = BF4DEF582F35B3E9001367B7 /* iOS26Study */;
 			baseConfigurationReferenceRelativePath = Secret.xcconfig;
@@ -1062,8 +962,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1081,7 +981,7 @@
 			};
 			name = Debug;
 		};
-		BF4DEF632F35B3EB001367B7 /* Release */ = {
+		BF4DEF632F35B3EB001367B7 /* Release configuration for PBXNativeTarget "iOS26Study" */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReferenceAnchor = BF4DEF582F35B3E9001367B7 /* iOS26Study */;
 			baseConfigurationReferenceRelativePath = Secret.xcconfig;
@@ -1098,8 +998,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1117,7 +1017,7 @@
 			};
 			name = Release;
 		};
-		BFB7A4B42F691813002346E9 /* Debug */ = {
+		BFB7A4B42F691813002346E9 /* Debug configuration for PBXNativeTarget "Week5_Concepts" */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReferenceAnchor = BFB7A4972F691812002346E9 /* Week5_Concepts */;
 			baseConfigurationReferenceRelativePath = Secret.xcconfig;
@@ -1152,7 +1052,7 @@
 			};
 			name = Debug;
 		};
-		BFB7A4B52F691813002346E9 /* Release */ = {
+		BFB7A4B52F691813002346E9 /* Release configuration for PBXNativeTarget "Week5_Concepts" */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReferenceAnchor = BFB7A4972F691812002346E9 /* Week5_Concepts */;
 			baseConfigurationReferenceRelativePath = Secret.xcconfig;
@@ -1187,7 +1087,7 @@
 			};
 			name = Release;
 		};
-		BFC9236D2F58350B0012797C /* Debug */ = {
+		BFC9236D2F58350B0012797C /* Debug configuration for PBXNativeTarget "Week1_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1219,7 +1119,7 @@
 			};
 			name = Debug;
 		};
-		BFC9236E2F58350B0012797C /* Release */ = {
+		BFC9236E2F58350B0012797C /* Release configuration for PBXNativeTarget "Week1_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1251,7 +1151,7 @@
 			};
 			name = Release;
 		};
-		BFC9237C2F5835440012797C /* Debug */ = {
+		BFC9237C2F5835440012797C /* Debug configuration for PBXNativeTarget "Week2_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1283,7 +1183,7 @@
 			};
 			name = Debug;
 		};
-		BFC9237D2F5835440012797C /* Release */ = {
+		BFC9237D2F5835440012797C /* Release configuration for PBXNativeTarget "Week2_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1315,7 +1215,7 @@
 			};
 			name = Release;
 		};
-		BFC9238B2F5835540012797C /* Debug */ = {
+		BFC9238B2F5835540012797C /* Debug configuration for PBXNativeTarget "Week3_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1347,7 +1247,7 @@
 			};
 			name = Debug;
 		};
-		BFC9238C2F5835540012797C /* Release */ = {
+		BFC9238C2F5835540012797C /* Release configuration for PBXNativeTarget "Week3_concepts" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1379,7 +1279,7 @@
 			};
 			name = Release;
 		};
-		BFC9239A2F5837070012797C /* Debug */ = {
+		BFC9239A2F5837070012797C /* Debug configuration for PBXNativeTarget "Week1_practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1411,7 +1311,7 @@
 			};
 			name = Debug;
 		};
-		BFC9239B2F5837070012797C /* Release */ = {
+		BFC9239B2F5837070012797C /* Release configuration for PBXNativeTarget "Week1_practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1443,7 +1343,7 @@
 			};
 			name = Release;
 		};
-		BFC9241A2F583C050012797C /* Debug */ = {
+		BFC9241A2F583C050012797C /* Debug configuration for PBXNativeTarget "Week3_practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1475,7 +1375,7 @@
 			};
 			name = Debug;
 		};
-		BFC9241B2F583C050012797C /* Release */ = {
+		BFC9241B2F583C050012797C /* Release configuration for PBXNativeTarget "Week3_practice" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1513,109 +1413,97 @@
 		BF15944F2F5C65730051713E /* Build configuration list for PBXNativeTarget "iOS26StudyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF15944D2F5C65730051713E /* Debug */,
-				BF15944E2F5C65730051713E /* Release */,
+				BF15944D2F5C65730051713E /* Debug configuration for PBXNativeTarget "iOS26StudyTests" */,
+				BF15944E2F5C65730051713E /* Release configuration for PBXNativeTarget "iOS26StudyTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BF1C28B12FACBE7700BCB678 /* Build configuration list for PBXNativeTarget "Week8_Practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1C28B22FACBE7700BCB678 /* Debug */,
-				BF1C28B32FACBE7700BCB678 /* Release */,
+				BF1C28B22FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_Practice" */,
+				BF1C28B32FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_Practice" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BF1C28B42FACBE7700BCB678 /* Build configuration list for PBXNativeTarget "Week8_PracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1C28B52FACBE7700BCB678 /* Debug */,
-				BF1C28B62FACBE7700BCB678 /* Release */,
+				BF1C28B52FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_PracticeTests" */,
+				BF1C28B62FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_PracticeTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BF1C28B72FACBE7700BCB678 /* Build configuration list for PBXNativeTarget "Week8_PracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1C28B82FACBE7700BCB678 /* Debug */,
-				BF1C28B92FACBE7700BCB678 /* Release */,
+				BF1C28B82FACBE7700BCB678 /* Debug configuration for PBXNativeTarget "Week8_PracticeUITests" */,
+				BF1C28B92FACBE7700BCB678 /* Release configuration for PBXNativeTarget "Week8_PracticeUITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BF4DEF512F35B3E9001367B7 /* Build configuration list for PBXProject "iOS26Study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF4DEF5F2F35B3EB001367B7 /* Debug */,
-				BF4DEF602F35B3EB001367B7 /* Release */,
+				BF4DEF5F2F35B3EB001367B7 /* Debug configuration for PBXProject "iOS26Study" */,
+				BF4DEF602F35B3EB001367B7 /* Release configuration for PBXProject "iOS26Study" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BF4DEF612F35B3EB001367B7 /* Build configuration list for PBXNativeTarget "iOS26Study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF4DEF622F35B3EB001367B7 /* Debug */,
-				BF4DEF632F35B3EB001367B7 /* Release */,
+				BF4DEF622F35B3EB001367B7 /* Debug configuration for PBXNativeTarget "iOS26Study" */,
+				BF4DEF632F35B3EB001367B7 /* Release configuration for PBXNativeTarget "iOS26Study" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFB7A4BA2F691813002346E9 /* Build configuration list for PBXNativeTarget "Week5_Concepts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFB7A4B42F691813002346E9 /* Debug */,
-				BFB7A4B52F691813002346E9 /* Release */,
+				BFB7A4B42F691813002346E9 /* Debug configuration for PBXNativeTarget "Week5_Concepts" */,
+				BFB7A4B52F691813002346E9 /* Release configuration for PBXNativeTarget "Week5_Concepts" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFC9236C2F58350B0012797C /* Build configuration list for PBXNativeTarget "Week1_concepts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC9236D2F58350B0012797C /* Debug */,
-				BFC9236E2F58350B0012797C /* Release */,
+				BFC9236D2F58350B0012797C /* Debug configuration for PBXNativeTarget "Week1_concepts" */,
+				BFC9236E2F58350B0012797C /* Release configuration for PBXNativeTarget "Week1_concepts" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFC9237B2F5835440012797C /* Build configuration list for PBXNativeTarget "Week2_concepts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC9237C2F5835440012797C /* Debug */,
-				BFC9237D2F5835440012797C /* Release */,
+				BFC9237C2F5835440012797C /* Debug configuration for PBXNativeTarget "Week2_concepts" */,
+				BFC9237D2F5835440012797C /* Release configuration for PBXNativeTarget "Week2_concepts" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFC9238A2F5835540012797C /* Build configuration list for PBXNativeTarget "Week3_concepts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC9238B2F5835540012797C /* Debug */,
-				BFC9238C2F5835540012797C /* Release */,
+				BFC9238B2F5835540012797C /* Debug configuration for PBXNativeTarget "Week3_concepts" */,
+				BFC9238C2F5835540012797C /* Release configuration for PBXNativeTarget "Week3_concepts" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFC923992F5837070012797C /* Build configuration list for PBXNativeTarget "Week1_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC9239A2F5837070012797C /* Debug */,
-				BFC9239B2F5837070012797C /* Release */,
+				BFC9239A2F5837070012797C /* Debug configuration for PBXNativeTarget "Week1_practice" */,
+				BFC9239B2F5837070012797C /* Release configuration for PBXNativeTarget "Week1_practice" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		BFC924192F583C050012797C /* Build configuration list for PBXNativeTarget "Week3_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFC9241A2F583C050012797C /* Debug */,
-				BFC9241B2F583C050012797C /* Release */,
+				BFC9241A2F583C050012797C /* Debug configuration for PBXNativeTarget "Week3_practice" */,
+				BFC9241B2F583C050012797C /* Release configuration for PBXNativeTarget "Week3_practice" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
