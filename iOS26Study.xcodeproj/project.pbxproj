@@ -35,6 +35,20 @@
 			remoteGlobalIDString = BF1C28922FACBE7600BCB678;
 			remoteInfo = Week8_Practice;
 		};
+		BF88DE2E2FCBB8C200860D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4DEF4E2F35B3E9001367B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF88DE202FCBB8C100860D86;
+			remoteInfo = Week10_Concepts;
+		};
+		BF88DE382FCBB8C200860D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF4DEF4E2F35B3E9001367B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF88DE202FCBB8C100860D86;
+			remoteInfo = Week10_Concepts;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +58,9 @@
 		BF1C28A92FACBE7700BCB678 /* Week8_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week8_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4DEF562F35B3E9001367B7 /* iOS26Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS26Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BDBB82F7CE40900212FD6 /* ToolbarStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStyling.swift; sourceTree = "<group>"; };
+		BF88DE212FCBB8C100860D86 /* Week10_Concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week10_Concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF88DE2D2FCBB8C200860D86 /* Week10_ConceptsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week10_ConceptsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF88DE372FCBB8C200860D86 /* Week10_ConceptsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week10_ConceptsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB7A4962F691812002346E9 /* Week5_Concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week5_Concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923642F5835090012797C /* Week1_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC923732F5835430012797C /* Week2_concepts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2_concepts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +91,11 @@
 				BFB7A4CC2F69487B002346E9 /* Exceptions for "iOS26Study" folder in "iOS26Study" target */,
 			);
 			path = iOS26Study;
+			sourceTree = "<group>";
+		};
+		BF88DE222FCBB8C100860D86 /* Week10_Concepts */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Week10_Concepts;
 			sourceTree = "<group>";
 		};
 		BFB7A4972F691812002346E9 /* Week5_Concepts */ = {
@@ -135,6 +157,21 @@
 				BF73412E2F5FE66500E32109 /* Moya in Frameworks */,
 			);
 		};
+		BF88DE1E2FCBB8C100860D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		BF88DE2A2FCBB8C200860D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		BF88DE342FCBB8C200860D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 		BFB7A4932F691812002346E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
@@ -181,6 +218,7 @@
 				BFC924122F583C040012797C /* Week3_practice */,
 				BFB7A4972F691812002346E9 /* Week5_Concepts */,
 				BF1C28942FACBE7600BCB678 /* Week8_Practice */,
+				BF88DE222FCBB8C100860D86 /* Week10_Concepts */,
 				BF4DEF572F35B3E9001367B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +237,9 @@
 				BF1C28932FACBE7600BCB678 /* Week8_Practice.app */,
 				BF1C289F2FACBE7700BCB678 /* Week8_PracticeTests.xctest */,
 				BF1C28A92FACBE7700BCB678 /* Week8_PracticeUITests.xctest */,
+				BF88DE212FCBB8C100860D86 /* Week10_Concepts.app */,
+				BF88DE2D2FCBB8C200860D86 /* Week10_ConceptsTests.xctest */,
+				BF88DE372FCBB8C200860D86 /* Week10_ConceptsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,6 +339,60 @@
 			productName = iOS26Study;
 			productReference = BF4DEF562F35B3E9001367B7 /* iOS26Study.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BF88DE202FCBB8C100860D86 /* Week10_Concepts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF88DE452FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_Concepts" */;
+			buildPhases = (
+				BF88DE1D2FCBB8C100860D86 /* Sources */,
+				BF88DE1E2FCBB8C100860D86 /* Frameworks */,
+				BF88DE1F2FCBB8C100860D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				BF88DE222FCBB8C100860D86 /* Week10_Concepts */,
+			);
+			name = Week10_Concepts;
+			productName = Week10_Concepts;
+			productReference = BF88DE212FCBB8C100860D86 /* Week10_Concepts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF88DE2C2FCBB8C200860D86 /* Week10_ConceptsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF88DE462FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_ConceptsTests" */;
+			buildPhases = (
+				BF88DE292FCBB8C200860D86 /* Sources */,
+				BF88DE2A2FCBB8C200860D86 /* Frameworks */,
+				BF88DE2B2FCBB8C200860D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF88DE2F2FCBB8C200860D86 /* PBXTargetDependency */,
+			);
+			name = Week10_ConceptsTests;
+			productName = Week10_ConceptsTests;
+			productReference = BF88DE2D2FCBB8C200860D86 /* Week10_ConceptsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF88DE362FCBB8C200860D86 /* Week10_ConceptsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF88DE472FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_ConceptsUITests" */;
+			buildPhases = (
+				BF88DE332FCBB8C200860D86 /* Sources */,
+				BF88DE342FCBB8C200860D86 /* Frameworks */,
+				BF88DE352FCBB8C200860D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF88DE392FCBB8C200860D86 /* PBXTargetDependency */,
+			);
+			name = Week10_ConceptsUITests;
+			productName = Week10_ConceptsUITests;
+			productReference = BF88DE372FCBB8C200860D86 /* Week10_ConceptsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		BFB7A4952F691812002346E9 /* Week5_Concepts */ = {
 			isa = PBXNativeTarget;
@@ -417,7 +512,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2640;
+				LastSwiftUpdateCheck = 2650;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					BF1594462F5C65730051713E = {
@@ -437,6 +532,17 @@
 					};
 					BF4DEF552F35B3E9001367B7 = {
 						CreatedOnToolsVersion = 26.2;
+					};
+					BF88DE202FCBB8C100860D86 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					BF88DE2C2FCBB8C200860D86 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = BF88DE202FCBB8C100860D86;
+					};
+					BF88DE362FCBB8C200860D86 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = BF88DE202FCBB8C100860D86;
 					};
 					BFB7A4952F691812002346E9 = {
 						CreatedOnToolsVersion = 26.3;
@@ -487,6 +593,9 @@
 				BF1C28922FACBE7600BCB678 /* Week8_Practice */,
 				BF1C289E2FACBE7700BCB678 /* Week8_PracticeTests */,
 				BF1C28A82FACBE7700BCB678 /* Week8_PracticeUITests */,
+				BF88DE202FCBB8C100860D86 /* Week10_Concepts */,
+				BF88DE2C2FCBB8C200860D86 /* Week10_ConceptsTests */,
+				BF88DE362FCBB8C200860D86 /* Week10_ConceptsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -513,6 +622,21 @@
 			);
 		};
 		BF4DEF542F35B3E9001367B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		BF88DE1F2FCBB8C100860D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		BF88DE2B2FCBB8C200860D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		BF88DE352FCBB8C200860D86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -576,6 +700,21 @@
 				BF6BDBBA2F7CE40900212FD6 /* ToolbarStyling.swift in Sources */,
 			);
 		};
+		BF88DE1D2FCBB8C100860D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		BF88DE292FCBB8C200860D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		BF88DE332FCBB8C200860D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 		BFB7A4922F691812002346E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -624,6 +763,16 @@
 			isa = PBXTargetDependency;
 			target = BF1C28922FACBE7600BCB678 /* Week8_Practice */;
 			targetProxy = BF1C28AA2FACBE7700BCB678 /* PBXContainerItemProxy */;
+		};
+		BF88DE2F2FCBB8C200860D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF88DE202FCBB8C100860D86 /* Week10_Concepts */;
+			targetProxy = BF88DE2E2FCBB8C200860D86 /* PBXContainerItemProxy */;
+		};
+		BF88DE392FCBB8C200860D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF88DE202FCBB8C100860D86 /* Week10_Concepts */;
+			targetProxy = BF88DE382FCBB8C200860D86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1016,6 +1165,162 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF88DE3F2FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_Concepts" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Week10_Concepts/Week10_Concepts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week10-Concepts-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-Concepts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF88DE402FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_Concepts" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Week10_Concepts/Week10_Concepts.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week10-Concepts-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-Concepts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF88DE412FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_ConceptsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-ConceptsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week10_Concepts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week10_Concepts";
+			};
+			name = Debug;
+		};
+		BF88DE422FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_ConceptsTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-ConceptsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week10_Concepts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week10_Concepts";
+			};
+			name = Release;
+		};
+		BF88DE432FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_ConceptsUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-ConceptsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Week10_Concepts;
+			};
+			name = Debug;
+		};
+		BF88DE442FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_ConceptsUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Z52RL5Y3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "one.Week10-ConceptsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Week10_Concepts;
 			};
 			name = Release;
 		};
@@ -1457,6 +1762,30 @@
 			buildConfigurations = (
 				BF4DEF622F35B3EB001367B7 /* Debug configuration for PBXNativeTarget "iOS26Study" */,
 				BF4DEF632F35B3EB001367B7 /* Release configuration for PBXNativeTarget "iOS26Study" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		BF88DE452FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_Concepts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF88DE3F2FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_Concepts" */,
+				BF88DE402FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_Concepts" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		BF88DE462FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_ConceptsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF88DE412FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_ConceptsTests" */,
+				BF88DE422FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_ConceptsTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		BF88DE472FCBB8C200860D86 /* Build configuration list for PBXNativeTarget "Week10_ConceptsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF88DE432FCBB8C200860D86 /* Debug configuration for PBXNativeTarget "Week10_ConceptsUITests" */,
+				BF88DE442FCBB8C200860D86 /* Release configuration for PBXNativeTarget "Week10_ConceptsUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};
